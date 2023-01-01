@@ -10,7 +10,7 @@ date: 2022-01-10
 description: "Hack The Box Machine - Pandora writeup"
 author: "Tejas"
 showToc: true
-TocOpen: true
+TocOpen: false
 draft: false
 hidemeta: false
 comments: true

@@ -12,7 +12,7 @@ date: 2022-02-07
 description: "Hack The Box Machine - Meta writeup"
 author: "Tejas"
 showToc: true
-TocOpen: true
+TocOpen: false
 draft: false
 hidemeta: false
 comments: true

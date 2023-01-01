@@ -11,7 +11,7 @@ date: 2022-02-14
 description: "Hack The Box Machine - EarlyAccess writeup"
 author: "Tejas"
 showToc: true
-TocOpen: true
+TocOpen: false
 draft: false
 hidemeta: false
 comments: true
