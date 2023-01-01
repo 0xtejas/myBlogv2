@@ -31,9 +31,9 @@ cover:
     hidden: false # only hide on current single page
 ---
 
-# Enumeration
+## Enumeration
 
-## Open Port
+### Open Port
 
 ```bash
 PORT    STATE SERVICE  REASON         VERSION
@@ -63,7 +63,7 @@ PORT    STATE SERVICE  REASON         VERSION
 | Issuer: commonName=earlyaccess.htb/organizationName=EarlyAccess Studios/stateOrProvinceName=Vienna/countryName=AT/emailAddress=chr0x6eos@earlyaccess.htb/organizationalUnitName=IT/localityName=Vienna
 ```
 
-## Sub Domain
+### Sub Domain
 
 {{< figure src="images/Untitled.png">}}
 
