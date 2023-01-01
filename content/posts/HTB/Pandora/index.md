@@ -4,6 +4,8 @@ tags:
     - Pandora FMS
     - Path Injection
     - Easy
+categories:
+    - "Hack The Box Writeup"
 date: 2022-01-10
 description: "Hack The Box Machine - Pandora writeup"
 author: "Tejas"
