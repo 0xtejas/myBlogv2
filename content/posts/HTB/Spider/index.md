@@ -5,7 +5,7 @@ tags:
     - Jwt Tampering
     - XXE
     - "Hard Machines"
-category:
+categories:
     - "Hack The Box Writeup"
 date: 2022-01-13
 description: "Hack The Box Machine - Spider writeup"

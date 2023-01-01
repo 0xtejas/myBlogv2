@@ -5,7 +5,7 @@ tags:
     - Unicode Normalization
     - Command Injection
     - "Medium Machines"
-category:
+categories:
     - "Hack The Box Writeup"
 date: 2021-12-09
 description: "Hack The Box Machine - Unicode writeup"

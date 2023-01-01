@@ -2,7 +2,7 @@
 title: Paper
 tags: 
     - Wordpress
-    - Easy
+    - "Easy Machines"
 categories:
     - "Hack The Box Writeup"
 date: 2022-02-09

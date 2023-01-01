@@ -6,7 +6,7 @@ tags:
     - Silver-Ticket 
     - kerberos
     - "Medium Machines"
-category:
+categories:
     - "Hack The Box Writeup"
 date: 2022-06-11
 description: "Hack The Box Machine - Scrambled writeup"

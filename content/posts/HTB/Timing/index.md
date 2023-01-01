@@ -5,7 +5,7 @@ tags:
     - LFI
     - File Upload and Execution
     - "Medium Machines"
-category:
+categories:
     - "Hack The Box Writeup"
 date: 2022-01-18
 description: "Hack The Box Machine - Timing writeup"

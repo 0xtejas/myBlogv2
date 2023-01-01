@@ -6,7 +6,7 @@ tags:
     - Constrainder Delegation
     - Active Directory
     - "Medium Machines"
-category:
+categories:
     - "Hack The Box Writeup"
 date: 2022-01-13
 description: "Hack The Box Machine - Intelligence writeup"

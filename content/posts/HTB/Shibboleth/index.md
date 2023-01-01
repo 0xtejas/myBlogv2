@@ -5,7 +5,7 @@ tags:
     - MYSQL
     - Zabbix
     - "Medium Machines"
-category:
+categories:
     - "Hack The Box Writeup"
 date: 2022-01-11
 description: "Hack The Box Machine - Shibboleth writeup"

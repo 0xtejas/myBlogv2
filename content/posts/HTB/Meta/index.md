@@ -6,8 +6,8 @@ tags:
     - ImageMagic
     - Neofetch
     - "Medium Machines"
-category:
-  - "Hack The Box Writeup"  
+categories:
+    - "Hack The Box Writeup" 
 date: 2022-02-07
 description: "Hack The Box Machine - Meta writeup"
 author: "Tejas"

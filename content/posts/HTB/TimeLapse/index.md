@@ -3,7 +3,7 @@ title: Timelapse
 tags:
     - Active Directory
     - "Easy Machines"
-category:
+categories:
     - "Hack The Box Writeup"
 date: 2022-04-05
 description: "Hack The Box Machine - Timelapse writeup"
