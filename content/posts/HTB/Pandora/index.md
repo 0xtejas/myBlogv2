@@ -3,7 +3,7 @@ title: Pandora
 tags: 
     - Pandora FMS
     - Path Injection
-    - Easy
+    - "Easy Machines"
 categories:
     - "Hack The Box Writeup"
 date: 2022-01-10
