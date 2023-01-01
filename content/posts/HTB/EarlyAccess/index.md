@@ -4,8 +4,9 @@ tags:
     - SQL injection
     - XSS
     - Docker
-categories:
     - "Hard Machines"
+categories:
+    - "Hack The Box Writeup"
 date: 2022-02-14
 description: "Hack The Box Machine - EarlyAccess writeup"
 author: "Tejas"
