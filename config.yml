@@ -63,7 +63,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Tejas
     subtitle: "Musician and Cybersecurity Enthusiast"
-    imageUrl: https://www.hackthebox.com/storage/avatars/fe2b6ad9af06099918dfc9e88b0d61c1.png?v=2
+    imageUrl: https://www.hackthebox.com/storage/avatars/daa5d31ecc5152669cffe738b41f64a3.png?v=2
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
