@@ -17,7 +17,7 @@ params:
   title: Blog
   description: "Hack The Box and CTF writeups"
   keywords: [HTB, Writeup, Hack The Box]
-  author: ["Tejas"]
+  author: Tejas
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
