@@ -1,1 +1,1 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e8ba2f2c-3b2e-460d-b25a-382feee4ec03/deploy-status)](https://app.netlify.com/sites/hopeful-aryabhata-aca046/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58eee0cc-564a-45b6-99f8-371465badbbe/deploy-status)](https://app.netlify.com/sites/helpful-ganache-6759ee/deploys)
