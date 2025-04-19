@@ -74,7 +74,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Tejas
-    subtitle: " Customer Technical Support II @ Hack The Box | OSCP | CRTP | CKS | Musician"
+    subtitle: "Process Automation Senior Associate @ Hack The Box | OSCP | CRTP | CKS | Musician"
     imageUrl: https://www.hackthebox.com/storage/avatars/daa5d31ecc5152669cffe738b41f64a3.png?v=2
     imageWidth: 120
     imageHeight: 120
