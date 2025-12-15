@@ -3,7 +3,8 @@
 baseURL: "https://0xtejas.me/"
 title: Cybersecurity Blog
 copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: [PaperMod]
 
 enableInlineShortcodes: true
@@ -162,5 +163,5 @@ markup:
 services:
   instagram:
     disableInlineCSS: true
-  twitter:
+  x:
     disableInlineCSS: true
